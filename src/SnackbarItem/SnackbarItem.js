@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
-import { withStyles } from '@material-ui/core/styles';
-import RootRef from '@material-ui/core/RootRef';
-import Snackbar from '@material-ui/core/Snackbar';
+// import RootRef from '@material-ui/core/RootRef';
+// import Snackbar from '@material-ui/core/Snackbar';
 import SnackbarContent from '@material-ui/core/SnackbarContent';
 import { styles, getTransitionStyles } from './SnackbarItem.styles';
 import {
@@ -14,6 +13,7 @@ import {
     TransitionComponent,
     variantIcon,
 } from './SnackbarItem.util';
+import { withStyles, Snackbar, RootRef } from '@material-ui/core';
 
 
 class SnackbarItem extends Component {

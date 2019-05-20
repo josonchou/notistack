@@ -1,6 +1,7 @@
 import React from 'react';
-import Slide from '@material-ui/core/Slide';
-import SvgIcon from '@material-ui/core/SvgIcon';
+import { Slide, SvgIcon } from '@material-ui/core';
+// import Slide from '@material-ui/core/Slide';
+// import SvgIcon from '@material-ui/core/SvgIcon';
 
 const CheckIcon = props => (
     <SvgIcon {...props}>
