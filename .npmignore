@@ -7,3 +7,4 @@ examples
 README.md
 CHANGELOG.md
 webpack.config.js
+yarn.lock
